@@ -10,7 +10,7 @@ cd Mischief-Managed
 
 # Usage
 usage:
-echo | python3 mischief_managed.py <path_to_python_file> <n> > <path_to_output_file>
+echo | python3 mischief_managed.py <path_to_python_file> <num_of_iterations> > <path_to_output_file>
 
 example:
 
