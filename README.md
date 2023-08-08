@@ -10,10 +10,13 @@ cd Mischief-Managed
 
 # Usage
 usage:
-echo | python3 mischief_managed.py <path_to_python_file> > <path_to_output_file>
+echo | python3 mischief_managed.py <path_to_python_file> <n> > <path_to_output_file>
 
 example:
-echo | python3 mischief_managed.py get_prime_numbers.py > secret_prime.py
+
+echo | python3 mischief_managed.py get_prime_numbers.py 7 > secret_prime.py
+
+echo | python3 mischief_managed.py calculator.py 8 > secret_calc.py
 
 # Compatibility
 
